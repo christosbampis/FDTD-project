@@ -2,6 +2,8 @@ close all; clear all; clc;
 
 unit=1e-3;
 
+load data_oxi_sfaira;
+
 pt={'f_central in GHz:','dipole axis 1 for x 2 for y 3 for z:','human head axis 1 for x 2 for y 3 for z:','distance from dipole antenna (cm)'};
 ans=inputdlg(pt,'Input data 1:',1,{'1','3','2','2'});
 
